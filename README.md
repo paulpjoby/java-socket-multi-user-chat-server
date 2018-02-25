@@ -1,4 +1,4 @@
-# Multi User Chat Server using TCP Socket in Java
+# Multi User Chat Server using TCP Socket in Java 
 Implementing multi user chat server using Java TCP Socket programming. 
 
 `Created by Paul P Joby` 
@@ -26,6 +26,10 @@ MESSAGE_BODY @TO_USERNAME
 - Dont use '@' within or at the beginning of your username while creating a client
 - Only use '@' infront of username while sending a message
 - Message body may or may not contain white space and other special characters except '@'
+- Example if you want to send message to a user 'john' 
+```
+message content @john 
+```
 
 # Screenshot
 ![Screenshot](images/screenshot.png)
